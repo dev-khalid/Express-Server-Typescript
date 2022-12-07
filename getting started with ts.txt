@@ -1,0 +1,8 @@
+Commands: 
+npm i typescript 
+npx tsc --init 
+yarn add typescript ts-node 
+inside package.json: 
+   - "dev": "nodemon ./src/app.ts",
+   - "start": "node ./dist/app.js"
+tsconfig.json: 1.rootdir,outdir,moduleResolution: node,"include":"./src"
