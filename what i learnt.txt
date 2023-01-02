@@ -1,0 +1,5 @@
+1.interface [Type or fixed things for objects] [Where to use this? On incoming object inside some request or on a Response from third party api.]
+2.Inside function we should use type annotation for each params 
+3.type inference [ts automatically figure out the type]
+4.class,arrays,object literals,functions [ type annotation]
+5.Multiple types can be introduced on same variable using | seperated types.

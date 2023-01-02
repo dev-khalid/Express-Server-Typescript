@@ -1,8 +1,13 @@
 Commands: 
 npm i typescript 
-npx tsc --init 
+npx tsc --init [Project bootstraping.]
 yarn add typescript ts-node 
 inside package.json: 
    - "dev": "nodemon ./src/app.ts",
    - "start": "node ./dist/app.js"
 tsconfig.json: 1.rootdir,outdir,moduleResolution: node,"include":"./src"
+
+Another shortcut without project bootstraping: 
+   - tsc index.ts 
+   - node index.js
+   - Above two line can be minimized and rather we should use ts-node index.ts [ this will automatically complile the .ts file and run it.]
