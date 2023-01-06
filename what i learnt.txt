@@ -3,3 +3,8 @@
 3.type inference [ts automatically figure out the type]
 4.class,arrays,object literals,functions [ type annotation]
 5.Multiple types can be introduced on same variable using | seperated types.
+6.Destructuing & annotation 
+7.Learnt a lot about interface and implements and reusability 
+8.How to read library code rather than documentation.
+Vscode shortcut: 
+ctrl+shift+p > fold all 
